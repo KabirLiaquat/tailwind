@@ -1,0 +1,11 @@
+To build tailwind css and add custom file code in build file (not good approach)
+>npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css
+
+To initialize package.json file
+>npm init -y
+
+To install tailwind, postcss, autoprefixer, and vite
+>npm install -D tailwindcss postcss autoprefixer vite
+
+Now to generate tailwind css and post css config file
+>npx tailwindcss init -p
